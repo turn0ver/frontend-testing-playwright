@@ -1,0 +1,14 @@
+{
+  "name": "frontend-testing-playwright",
+  "version": "1.0.0",
+  "description": "Playwright tests for Login and Sign Up frontend scenarios",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:headed": "npx playwright test --headed"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "@playwright/test": "^1.45.0"
+  }
+}
